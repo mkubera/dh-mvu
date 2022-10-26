@@ -1,17 +1,15 @@
 import store from "./store.js";
+import helpers from "./helpers.js";
 
 // [[ MVU ]]
 
-// HELPERS FUNCTIONS / UTILS (UTILITIES)
-const qs = (s) => document.querySelector(s);
-
 // DOM
-const userDOM = qs("#user");
-const loginFormDOM = qs("#loginForm");
-const incrementBtnDOM = qs("#increment");
-const decrementBtnDOM = qs("#decrement");
-const resetBtnDOM = qs("#reset");
-const countDOM = qs("#count");
+const userDOM = helpers.qs("#user");
+const loginFormDOM = helpers.qs("#loginForm");
+const incrementBtnDOM = helpers.qs("#increment");
+const decrementBtnDOM = helpers.qs("#decrement");
+const resetBtnDOM = helpers.qs("#reset");
+const countDOM = helpers.qs("#count");
 
 // MODEL
 // LOCAL STORAGE
